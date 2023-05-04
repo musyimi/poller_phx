@@ -1,0 +1,15 @@
+
+<h1>Districts</h1>
+
+<table >
+    <thead >
+        <th> Name </th>
+    </thead>
+    <tbody>
+        <%= for district <- @districts do %>
+          <tr>
+            <td><%= district.name %></td>
+          </tr>
+        <% end %>
+    </tbody>
+</table>
